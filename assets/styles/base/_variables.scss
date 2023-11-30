@@ -1,0 +1,35 @@
+$primary: rgb(0, 0, 129);
+$primary--lighter: lighten($primary, 15%);
+$primary--lightest: lighten($primary, 25%);
+$primary--darker: darken($primary, 15%);
+$primary--darkest: darken($primary, 25%);
+
+$secondary: rgb(134, 130, 130);
+$secondary--lighter: lighten($secondary, 15%);
+$secondary--lightest: lighten($secondary, 25%);
+$secondary--darker: darken($secondary, 15%);
+$secondary--darkest: darken($secondary, 40%);
+
+$danger: rgb(255, 52, 52);
+$danger--lighter: lighten($danger, 15%);
+$danger--lightest: lighten($danger, 25%);
+$danger--darker: darken($danger, 15%);
+$danger--darkest: darken($danger, 40%);
+
+$info: rgb(229, 175, 55);
+$info--lighter: lighten($info, 15%);
+$info--lightest: lighten($info, 25%);
+$info--darker: darken($info, 15%);
+$info--darkest: darken($info, 40%);
+
+$alert: rgb(250, 91, 0);
+$alert--lighter: lighten($alert, 15%);
+$alert--lightest: lighten($alert, 25%);
+$alert--darker: darken($alert, 15%);
+$alert--darkest: darken($alert, 40%);
+
+$success: #5cb85c;
+$success--lighter: lighten($success, 15%);
+$success--lightest: lighten($success, 25%);
+$success--darker: darken($success, 15%);
+$success--darkest: darken($success, 40%);

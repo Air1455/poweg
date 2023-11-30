@@ -1,0 +1,33 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  @include respond(tablet) {font-size: 56.25%;}
+}
+body{
+  box-sizing: border-box;
+  font-family: "Default Police", cursive;
+  *{
+    font-size: 1.6rem;
+    color: $primary--darkest;
+  }
+  #root{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    background-image: linear-gradient(
+                    -45deg,
+                    rgba($primary--lightest,1) 0%,
+                    rgba($secondary,1) 25%,
+                    rgba($primary--lighter,.7) 51%,
+                    rgba($secondary--lightest,1) 100%
+    );
+    background-size: 500% 300%;
+    animation: moveGradientBackground 3s ease-in-out forwards;
+    padding-top: 10rem;
+  }
+}
