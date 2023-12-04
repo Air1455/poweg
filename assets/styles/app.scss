@@ -6,8 +6,10 @@
 @import "base/base";
 
 //Components
+@import "components/linkToScroll";
 @import "components/logo";
 @import "components/app-bar";
+@import "components/image-container";
 
 //Pages
 @import "pages/home";

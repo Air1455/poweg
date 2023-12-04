@@ -1,0 +1,16 @@
+.image-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 10px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+  }
+  &:hover img {
+    transform: scale(1.1);
+  }
+}

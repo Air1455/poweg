@@ -1,0 +1,9 @@
+.linkToScroll{
+  font-style: italic;
+  color: $primary;
+  cursor: pointer;
+  &:hover{
+    font-weight: bold;
+
+  }
+}

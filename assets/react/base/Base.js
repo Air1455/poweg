@@ -4,6 +4,7 @@ import {Button, Toolbar} from "@mui/material";
 import Logo from "../components/Logo";
 import {useDispatch, useSelector} from "react-redux";
 import {setDisplayAppBar} from "../redux/baseReducer";
+import MyAppBar from "../components/MyAppBar";
 
 const Base = ({children}) => {
     const [logoContainerClassName, setLogoContainerClassName] = useState('')
@@ -17,16 +18,13 @@ const Base = ({children}) => {
 
     return (
         <div>
-            <AppBar id="app-bar" className={displayAppBar ? "show":""}>
-                <Toolbar>
-                    <Logo animate={true} />
-                    <Button variant="outlined">Lien</Button>
-                </Toolbar>
-            </AppBar>
+            <MyAppBar />
 
             {!displayAppBar && <div id="logo-container" className={logoContainerClassName}>
-                <div>Bienvenue chez</div>
-                <Logo animate={true} />
+                <div className={"logo__block"}>
+                    <div>Bienvenue chez</div>
+                    <Logo animate={true} />
+                </div>
             </div>}
             {children}
         </div>

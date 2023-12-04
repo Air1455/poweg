@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
+import imgMerchantSite from "../../images/merchant-site.webp";
 
-const ScrollSection = ({ children }) => {
+const ScrollSection2 = ({ title, imgSrc, id }) => {
     const sectionRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
 
@@ -9,7 +10,7 @@ const ScrollSection = ({ children }) => {
         const handleScroll = () => {
             if (sectionRef.current) {
                 const { top } = sectionRef.current.getBoundingClientRect();
-                setIsVisible(top < rootElement.clientHeight + 600 && rootElement.scrollTop !== 0);
+                setIsVisible(top < (rootElement.clientHeight - 300) && rootElement.scrollTop !== 0);
             }
         };
         rootElement.addEventListener('scroll', handleScroll);
@@ -22,11 +23,16 @@ const ScrollSection = ({ children }) => {
     return (
         <section
             ref={sectionRef}
-            className={`section section--text section--scroll ${isVisible ? 'visible' : ''}`}
+            className={`section section--scroll section--scroll-2 ${isVisible ? 'visible' : ''}`}
         >
-            {children}
+            <div id={id} className="section section--title">
+                <h1 className="section--title-right">{title.toUpperCase()}</h1>
+                <div className="image-container">
+                    <img src={imgSrc}  alt={title}/>
+                </div>
+            </div>
         </section>
     );
 };
 
-export default ScrollSection;
+export default ScrollSection2;
