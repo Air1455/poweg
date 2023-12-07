@@ -1,0 +1,15 @@
+.scroll {
+  .scroll-element{opacity: 0;transition: all 1s cubic-bezier(0.1, -0.1, 0.1, 1.1);}
+  &--horizontal .scroll-element{
+    &:first-of-type {transform: translateX(-150%);}
+    &:last-of-type {transform: translateX(150%);}
+    &.scroll--show {transform: translateX(0);opacity: 1;}
+  }
+  &--vertical .scroll-element{
+    transform: translateY(150%);
+    &.scroll--show {transform: translateY(0);opacity: 1;}
+    &.scroll--leave {transform: translateY(0);opacity: 0;}
+  }
+}
+
+

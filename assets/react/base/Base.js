@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import AppBar from '@mui/material/AppBar';
-import {Button, Toolbar} from "@mui/material";
 import Logo from "../components/Logo";
 import {useDispatch, useSelector} from "react-redux";
 import {setDisplayAppBar} from "../redux/baseReducer";

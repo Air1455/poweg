@@ -28,3 +28,20 @@
     background-position: 100% 50%;
   }
 }
+
+@keyframes slideHorizontal {
+  from {background-position: top;background-size:4500px; }
+  to {background-position: -100px 0px;background-size:4000px;}
+
+}
+
+@keyframes slideVertical {
+  from {
+    background-position: bottom;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 100%;
+    background-size: 2750px;
+  }
+}

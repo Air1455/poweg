@@ -1,0 +1,46 @@
+.flip-card {
+  flex: initial;
+  position: relative;
+  height: 40rem;
+  width: 60rem;
+  perspective: 200rem;
+  border-radius: 8px;
+  &__side {
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    &--front {
+      @include flexCenter;
+    }
+    &--back {
+      transform: rotateY(180deg);
+      background-color: white;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      &-header{
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        height: 30%;
+        @include flexCenter;
+        h2{
+          color: white;
+          font-size: 3rem;
+          text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+        }
+      }
+    }
+
+  }
+  &:hover &__side--back {transform: rotateY(0);}
+  &:hover &__side--front {transform: rotateY(-180deg);}
+}

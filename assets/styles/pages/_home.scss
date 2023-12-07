@@ -1,45 +1,22 @@
 #home{
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  >div:first-of-type{margin-top: 2rem}
   .section{
     width: 100%;
-    //border-radius: 10px;
-    margin-bottom: 8rem;
     padding: 4rem;
-    p{
-      margin-left: 8rem;
-      .p__title{display: block; font-weight: bold}
-      &:not(:last-child){margin-bottom: 2rem}
-      &.p--scroll{opacity: 0;transform: translateX(150%);transition: opacity 0.5s, transform 1s .2s;}
-      &.visible {opacity: 1;transform: translateX(0);}
-    }
-    &--scroll{
-      opacity: 0;
-      transition: all 0.5s .2s;
-      &-1{transform: translateY(100%);&.visible{transform: translateY(0);}}
-      &-2{
-        >div>*{
-          transition: all 0.5s .2s cubic-bezier(0.1, -0.1, 0.1, 1.1);
-          &:first-child{transform: translateX(-150%);}
-          &:nth-child(2){transform: translateX(150%);}
-        }
-        &.visible{>div>*{transform: translateX(0);}}}
-      &.visible {opacity: 1;}
-    }
-
-    &__container{max-width: $containerMaxWidth;margin: auto;}
-    &--title{
+    &__title{
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       margin-bottom: 0;
       padding: 0;
       &--80vh{height: 80vh;}
-      >*{display: flex;align-items: center;justify-content: center}
-      &-left{justify-content: left}
-      &-right{justify-content: right}
       h1{
         font-weight: bold;
         color: white;
-        font-size: 6rem;
+        font-size: 5rem;
         text-shadow: 0 1px 0 #ccc,
         0 2px 0 #c9c9c9,
         0 3px 0 #bbb,
@@ -54,19 +31,38 @@
         0 40px 40px rgba(0,0,0,.15);
       }
     }
-    &--text{
-      background-color: rgba(white, .7);
+    &__text{
+      background-image: url('./../../images/nuage-blanc-ciel-bleu.jpg');
+      background-size:cover;
+      animation: slideHorizontal 50s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
       width: 100%;
-      h1{
-        color: #360000;
-        width: max-content;
-        font-size: 2.6rem;
-        border-radius: 8px;
-        margin-bottom: 3rem;
-        font-style: italic;
-        text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+      &--container{
+        max-width: $containerMaxWidth;
+        margin: auto;
+        h1{
+          color: #360000;
+          width: max-content;
+          font-size: 2.6rem;
+          border-radius: 8px;
+          margin-bottom: 3rem;
+          font-style: italic;
+          text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+        }
+        p{margin-left: 8rem;margin-bottom: 2rem}
+        &-subtitle{display: block;font-weight: bold;margin: 3rem 0 1rem -2rem;}
+      }
+      &--links{
+        display: flex;
+        justify-content: end;
+        gap: 2rem;
+        button .logo{
+          margin: 0 1rem;
+          span{font-size: 1rem;}
+        }
       }
     }
   }
-
 }
