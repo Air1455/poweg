@@ -2,21 +2,56 @@ import React from 'react';
 import imgWebsite from "../../../images/website.webp";
 import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
 import FlipCard from "../FlipCard";
+import Paper from "@mui/material/Paper";
+import {GrNext, GrPrevious} from "react-icons/gr";
+import Button from "@mui/material/Button";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 
 const WebsiteSection = () => {
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1
+        }
+    };
     const backTitle= "Exemple de tarifs"
-    const backBody= <div className="rates-card">
-        <div className="rates-card__element rates-card__element-1">
-            <div className="rates-card__element--title">Simple page de présentation</div>
-            <div className="rates-card__element--rate"><span>200 000</span> F CFA</div>
-            <div className="rates-card__element--line">Une page interactive et moderne qui présente vors société</div>
-            <div className="rates-card__element--line">Hébergement + nom de domaine 20 000 F CFA par an</div>
-            <div className="rates-card__element--line">Hébergement + nom de domaine 20 000 F CFA par an</div>
-        </div>
-        <div className="rates-card__element rates-card__element-2">
-            <div className="rates-card__element--title"></div>
-        </div>
-    </div>
+    const backBody= <Carousel responsive={responsive}>
+        <Paper className="rates-card">
+            <div className="rates-card__element rates-card__element-1">
+                <div className="rates-card__element--title">Simple page de présentation</div>
+                <div className="rates-card__element--rate"><span>200 000</span> F CFA</div>
+            </div>
+            <div className="rates-card__element rates-card__element-2">
+                <div className="rates-card__element--line">Une page interactive et moderne qui présente vors société</div>
+                <div className="rates-card__element--line">Hébergement + nom de domaine 20 000 F CFA par an</div>
+            </div>
+        </Paper>
+        <Paper className="rates-card">
+            <div className="rates-card__element rates-card__element-1">
+                <div className="rates-card__element--title">Autre page de présentation</div>
+                <div className="rates-card__element--rate"><span>300 000</span> F CFA</div>
+            </div>
+            <div className="rates-card__element rates-card__element-2">
+                <div className="rates-card__element--line">Une page interactive et moderne qui présente vors société</div>
+                <div className="rates-card__element--line">Hébergement + nom de domaine 20 000 F CFA par an</div>
+            </div>
+        </Paper>
+    </Carousel>
 
     return (
         <>
