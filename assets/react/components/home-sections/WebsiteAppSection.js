@@ -19,16 +19,39 @@ const WebsiteAppSection = () => {
             <ScrollIntersectionEffect direction={"vertical"}>
                 <section className={`section section__text`}>
                     <div className="section__text--container">
-                        <h1>L'importance d'avoir une application hébergée sur internet pour votre société</h1>
-                        <ScrollIntersectionEffect>Alors que la technologie continue d'évoluer, avoir une application hébergée sur internet devient un atout stratégique crucial pour les entreprises. Les avantages sont nombreux, contribuant de manière significative à la productivité et à la flexibilité de votre société. Voici pourquoi vous devriez sérieusement envisager le développement d'une application web pour votre entreprise :</ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect><strong>Centralisation des Données :</strong> Une application hébergée sur internet offre la possibilité de centraliser toutes vos données en un seul endroit sécurisé. Cela simplifie la gestion des informations de votre entreprise, améliore la cohérence des données et facilite l'accès aux informations critiques.</ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect><strong>Travail à Distance :</strong> L'avantage majeur d'une application web est la possibilité pour vos employés de travailler de n'importe où. Que ce soit depuis le bureau, depuis chez eux ou en déplacement, l'accès à l'application via Internet permet une flexibilité accrue, favorisant ainsi la conciliation travail-vie personnelle.</ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect><strong>Collaboration en Temps Réel :</strong> Les applications web permettent une collaboration en temps réel entre les membres de votre équipe, même s'ils se trouvent à des endroits géographiques différents. Cela facilite la communication, le partage d'informations et la prise de décisions collectives, contribuant à une meilleure efficacité opérationnelle.</ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect><strong>Mises à Jour Simplifiées :</strong> Lorsque votre application est hébergée sur internet, les mises à jour logicielles peuvent être effectuées de manière transparente. Cela garantit que tous les utilisateurs accèdent toujours à la version la plus récente de l'application, avec les dernières fonctionnalités et corrections de bugs.</ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect><strong>Sécurité Renforcée :</strong> En optant pour une application hébergée sur internet, vous bénéficiez souvent de mesures de sécurité avancées, telles que des pare-feu et des protocoles de chiffrement. Cela renforce la sécurité de vos données et protège votre entreprise contre les menaces en ligne.</ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect><strong>Évolutivité et Flexibilité :</strong> Les applications web sont conçues pour être évolutives, ce qui signifie qu'elles peuvent s'adapter à la croissance de votre entreprise. Vous pouvez ajouter de nouvelles fonctionnalités, étendre la capacité de stockage et répondre aux besoins changeants de manière plus flexible que les applications traditionnelles.</ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect><strong>Accessibilité Multiplateforme :</strong> Les applications web peuvent être utilisées sur diverses plateformes et appareils, ce qui améliore l'accessibilité pour vos utilisateurs. Que ce soit sur un ordinateur de bureau, une tablette ou un téléphone portable, vos employés et clients peuvent accéder à l'application en fonction de leurs préférences.</ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect>En conclusion, une application web hébergée sur internet n'est pas seulement un outil, mais une solution dynamique qui favorise l'efficacité, la collaboration et la croissance de votre entreprise. N'hésitez pas à nous contacter pour discuter de la création d'une application sur mesure répondant à vos besoins spécifiques.</ScrollIntersectionEffect>
+                        <h1>Les avantages d’une application web sur mesure pour votre entreprise</h1>
+                        <ScrollIntersectionEffect>
+                            <p>
+                                Une application web sur mesure simplifie votre travail.
+                                <span className="mt-1"></span>
+                                Elle accomplit automatiquement à votre place les tâches informatiques de votre quotidien, vous faisant gagner du temps et évitant les erreurs.
+                                C'est un logiciel adapté exactement à vos besoins, accessible depuis n'importe quel appareil connecté à Internet.
+                                <span className="mt-1"></span>
+                                Voici quelques raisons supplémentaires d'envisager sérieusement d'équiper votre entreprise d'une application web sur mesure :
+                                <span className="mt-1"></span>
+                            </p>
+                        </ScrollIntersectionEffect>
+                        <ScrollIntersectionEffect>
+                            <p><strong>Aucune installation :</strong> Pas besoin d'installer l'application ! Elle est accessible sur divers appareils, améliorant ainsi son utilisation pour vos employés et clients, qu'ils préfèrent un ordinateur de bureau, une tablette ou un téléphone portable.</p>
+                        </ScrollIntersectionEffect>
+                        <ScrollIntersectionEffect>
+                            <p><strong>Centralisation des Données :</strong> Elle rassemble toutes vos données en un seul endroit sécurisé pour une gestion facilitée, une fiabilité accrue, et un accès rapide aux informations les plus récentes.</p>
+                        </ScrollIntersectionEffect>
+                        <ScrollIntersectionEffect>
+                            <p><strong>Travail à Distance :</strong> Vos employés peuvent travailler de n'importe où, que ce soit au bureau, à la maison, ou en voyage. L'accès à l'application via Internet offre une flexibilité favorisant l'équilibre entre vie professionnelle et vie personnelle.</p>
+                        </ScrollIntersectionEffect>
+                        <ScrollIntersectionEffect>
+                            <p><strong>Collaboration en Temps Réel :</strong> L'application facilite la collaboration instantanée entre les membres de votre équipe, même s'ils sont à des endroits différents. Elle améliore la communication, le partage d'informations, et les prises de décisions collectives pour une meilleure performance opérationnelle.</p>
+                        </ScrollIntersectionEffect>
+                        <ScrollIntersectionEffect>
+                            <p><strong>Évolutivité et Flexibilité :</strong> Conçue pour s'adapter à la croissance de votre entreprise, vous pourrez sans difficulté ajouter de nouvelles fonctionnalités, pour répondre aux besoins changeants de manière flexible.</p>
+                        </ScrollIntersectionEffect>
+                        <ScrollIntersectionEffect>
+                            <p><strong>Sécurité Renforcée :</strong> En optant pour une application web sur mesure hébergée sur internet, bénéficiez de mesures de sécurité avancées, comme des pare-feu et des protocoles de chiffrement, renforçant ainsi la sécurité de vos données contre les menaces en ligne.</p>
+                        </ScrollIntersectionEffect>
+                        <ScrollIntersectionEffect>
+                            <p>En résumé, une application web sur mesure hébergée sur internet n’est pas seulement un outil, mais une solution innovante qui favorise l’efficacité, la collaboration et la croissance de votre entreprise. N’hésitez pas à nous contacter pour discuter de la création d’une application sur mesure répondant à vos besoins spécifiques.</p>
+                        </ScrollIntersectionEffect>
                     </div>
                 </section>
             </ScrollIntersectionEffect>

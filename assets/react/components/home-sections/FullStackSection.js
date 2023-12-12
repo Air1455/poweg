@@ -3,16 +3,17 @@ import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
 
 const FullStackSection = () => {
     return (
-        <ScrollIntersectionEffect direction={"vertical"}>
-            <section className={`section section__text`} id="p__presentation">
-                <div className="section__text--container" id="p__full-stack">
+        <ScrollIntersectionEffect direction={"vertical"} insideElement={true}>
+            <section className={`section section__text`} id="p__full-stack">
+                <div className="section__text--container">
                     <h1>Les avantages d'un développeur full stack</h1>
                     <ScrollIntersectionEffect>
                         <p>Engager un développeur full stack pour la création de votre site Internet offre de nombreux avantages pratiques.</p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
                         <p>
-                            Un développeur full stack est un professionnel qui a une expertise complète dans la construction d'un site, du début à la fin.
+                            Un développeur full stack est un professionnel qui a une expertise complète dans la construction d'un site.
+                            Il maîtrise l'ensemble des différents langages de programmation web tels que HTML, CSS, PHP, JavaScript.
                             Voici quelques-uns des avantages convaincants de choisir un développeur full stack pour votre projet en ligne :
                         </p>
                     </ScrollIntersectionEffect>
@@ -40,6 +41,7 @@ const FullStackSection = () => {
                 </div>
             </section>
         </ScrollIntersectionEffect>
+
     );
 };
 

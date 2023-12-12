@@ -6,8 +6,8 @@ import {Button} from "@mui/material";
 
 const PresentationSection = () => {
     return (
-        <ScrollIntersectionEffect direction={"vertical"}>
-            <section className={`section section__text`} id="p__presentation">
+        <ScrollIntersectionEffect direction={"vertical"} insideElement={true}>
+            <section id="p__presentation" className={`section section__text`}>
                 <div className="section__text--container">
                     <h1 onClick={()=> animateScroll.scrollToBottom({duration: 500, smooth: true})}>Présentation</h1>
                     <ScrollIntersectionEffect>

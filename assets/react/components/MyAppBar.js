@@ -16,10 +16,10 @@ const MyAppBar = () => {
                     Présentation
                 </Link>
                 <Link className={"bar__link"} to="p__website" smooth={true} offset={-120} duration={1100} containerId={"root"}>
-                    Site internet
+                    Site Vitrine
                 </Link>
                 <Link className={"bar__link"} to="p__merchant-site" smooth={true} offset={-120} duration={1300} containerId={"root"}>
-                    Site marchand
+                    Site Marchand
                 </Link>
                 <Link className={"bar__link"} to="p__website-app" smooth={true} offset={-120} duration={1500} containerId={"root"}>
                     Application Web

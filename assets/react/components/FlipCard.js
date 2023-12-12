@@ -23,7 +23,7 @@ const FlipCard = ({ frontText, backBody, backTitle }) => {
                     <h2>{backTitle}</h2>
                 </div>
                 <div className="flip-card__side--back-body">
-                    <p>{backBody}</p>
+                    {backBody}
                 </div>
             </div>
         </div>
