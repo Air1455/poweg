@@ -12,12 +12,36 @@ const PresentationSection = () => {
                     <h1 onClick={()=> animateScroll.scrollToBottom({duration: 500, smooth: true})}>Présentation</h1>
                     <ScrollIntersectionEffect>
                         <p>
-                            <Logo /> est une agence spécialisée en Programmation Orientée Web implantée à Lomé au Togo.
+                            <Logo /> est une agence spécialisée en Programmation Orientée Web, implantée à Lomé au Togo, alliant expertise technique et sensibilité créative pour offrir des solutions web uniques.
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
                         <p>
-                            Que ce soit pour une simple page de présentation, un site marchand ou une application qui gère la globalité des besoins de votre entreprise, nous vous accompagnons dans la création d'une présence en ligne efficace et professionnelle.
+                            Que ce soit pour <Link
+                            to="p__website"
+                            title="Site Vitrine"
+                            smooth={true}
+                            offset={-100}
+                            duration={1000}
+                            containerId={"root"}
+                            className={"linkToScroll"}
+                        > une simple page de présentation </Link>, <Link
+                            to="p__merchant-site"
+                            title="E-Commerce"
+                            smooth={true}
+                            offset={-100}
+                            duration={1000}
+                            containerId={"root"}
+                            className={"linkToScroll"}
+                        > un site e-commerce dynamique </Link> ou <Link
+                            to="p__website-app"
+                            title="Application Web"
+                            smooth={true}
+                            offset={-100}
+                            duration={1000}
+                            containerId={"root"}
+                            className={"linkToScroll"}
+                        > une application complète </Link> qui gère tous les aspects de votre entreprise, nous vous accompagnons dans la création d'une présence en ligne d'une présence en ligne efficace, professionnelle et parfaitement alignée avec votre vision.
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
@@ -35,18 +59,16 @@ const PresentationSection = () => {
                             > Full Stack </Link>
                             passionné de programmation.
                             <br />
-                            Son parcours a débuté en 2010 avec les langages HTML, CSS, et PHP. Dès ses débuts, il s'est engagé à mettre en pratique ses connaissances pour offrir des expériences utilisateur agréables.
+                            Son parcours a débuté en 2010 avec les langages HTML, CSS, et PHP. Dès ses débuts, il s'est engagé à mettre en pratique ses connaissances pour créer des solutions adaptées aux besoins des entreprises et favoriser une expérience utilisateur agréable.
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
                         <p>
-                            Au fil du temps, il a élargi son champ de compétences en apprenant le JavaScript, un langage central dans le développement web moderne.
-                            <br />
-                            Il a suivi de près l'évolution rapide des langages et des technologies, comme l'avènement de nouveaux frameworks tels que Symfony ou React. Il a alors fait preuve d'une capacité remarquable à réapprendre et à s'adapter constamment.
+                            Avec une expertise s'étendant au JavaScript et à des frameworks comme Symfony et React, Erwann a suivi de près l'évolution rapide des technologies, y compris celle de l'Intelligence Artificielle, démontrant une capacité exceptionnelle à s'adapter et innover.
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
-                        <p>Installé et marié au Togo depuis 2014, il maitrise autant le niveau d'exigence européen que les réalités africaines.</p>
+                        <p>Installé et marié au Togo depuis 2014, Erwann allie le niveau d'exigence européen à une compréhension profonde des réalités africaines, apportant une perspective unique à chaque projet.</p>
                     </ScrollIntersectionEffect>
                 </div>
                 <div className="section__text--links">

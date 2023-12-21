@@ -19,7 +19,7 @@ const MyAppBar = () => {
                     Site Vitrine
                 </Link>
                 <Link className={"bar__link"} to="p__merchant-site" smooth={true} offset={-120} duration={1300} containerId={"root"}>
-                    Site Marchand
+                    E-commerce
                 </Link>
                 <Link className={"bar__link"} to="p__website-app" smooth={true} offset={-120} duration={1500} containerId={"root"}>
                     Application Web

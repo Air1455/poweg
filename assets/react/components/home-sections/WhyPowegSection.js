@@ -11,10 +11,13 @@ const WhyPowegSection = () => {
                     <h1>Pourquoi choisir <Logo /> ?</h1>
                     <ScrollIntersectionEffect>
                         <p>
-                            Créer un site web ou une application sur mesure peut être une tâche complexe. De nombreuses personnes tentent d'utiliser des outils automatisés qui permettent de créer des sites sans aucune connaissance en programmation.
-                            <br />Bien que cette pratique, appelée le "no code", gagne en popularité et soit adoptée par de nombreuses agences, elle conduit souvent à des sites uniformes et à des problèmes récurrents.
+                            La création d'un site web ou d'une application sur mesure est une tâche complexe.
+                            De nombreuses agences utilisent des outils automatisés qui permettent de créer des sites avec peu voir aucune connaissance en programmation.
+                            <br />Bien que cette pratique, appelée le "no code", gagne en popularité, elle conduit souvent à des sites uniformes et limités.
                         </p><p>
-                            Chez <Logo />, nous simplifions le processus en proposant des solutions personnalisées adaptées à vos besoins uniques. Opter pour notre agence présente de nombreux avantages :
+                            Chez <Logo />, nous maitrisons les principales langues de programmation, cela nous permet de proposer des solutions personnalisées, adaptées à vos besoins spécifiques et dépassant les limitations standards.
+                        </p><p>
+                            Choisir notre agence, c'est bénéficier de multiples avantages :
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>

@@ -52,7 +52,7 @@ const Home = () => {
             {appBarIsDisplay && (
                 <div id="home">
                     <section className="section section__title section__title--80vh">
-                        <h1>DÉVELOPPEMENT DE SITE WEB SUR MESURE</h1>
+                        <h1>DÉVELOPPEMENT DE SOLUTION WEB SUR MESURE</h1>
                     </section>
                     <PresentationSection />
                     <WebsiteSection />

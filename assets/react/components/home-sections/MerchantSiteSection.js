@@ -14,7 +14,7 @@ const MerchantSiteSection = () => {
             <section id="p__merchant-site" className="section section__title">
                 <div className="section__title--left scroll-element">
                     <FlipCard
-                        frontText={"Site marchand".toUpperCase()}
+                        frontText={"E-Commerce".toUpperCase()}
                         backTitle={backTitle}
                         backBody={backBody}
                     />
@@ -27,7 +27,7 @@ const MerchantSiteSection = () => {
         <ScrollIntersectionEffect direction={"vertical"}>
             <section className={`section section__text`}>
                 <div className="section__text--container">
-                    <h1>Les Avantages d'un Site Marchand pour Votre Entreprise</h1>
+                    <h1>Les Avantages d'un E-Commerce pour Votre Entreprise</h1>
                     <ScrollIntersectionEffect><p>Dans l'ère numérique actuelle, posséder un site marchand est un élément clé pour propulser votre entreprise vers de nouveaux horizons. Les avantages stratégiques d'un site marchand contribuent à accroître vos ventes, à renforcer votre présence en ligne et à offrir une expérience d'achat optimale à vos clients. Voici pourquoi investir dans un site marchand est essentiel pour la croissance de votre entreprise :</p></ScrollIntersectionEffect>
                     <ScrollIntersectionEffect><p><strong>Augmentation des Ventes :</strong> Un site marchand offre une plateforme pour présenter vos produits de manière attrayante. Les clients peuvent facilement parcourir les articles, comparer les prix et effectuer des achats en quelques clics, ce qui stimule les ventes et la croissance de votre entreprise.</p></ScrollIntersectionEffect>
                     <ScrollIntersectionEffect><p><strong>Accessibilité 24/7 :</strong> Votre boutique en ligne est ouverte 24 heures sur 24, 7 jours sur 7. Les clients peuvent explorer vos produits, effectuer des achats et obtenir des informations à tout moment, offrant une commodité maximale et augmentant la satisfaction client.</p></ScrollIntersectionEffect>
