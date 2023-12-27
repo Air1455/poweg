@@ -1,5 +1,5 @@
 import React from 'react';
-import imgMerchantSite from "../../../images/merchant-site.webp";
+import imgMerchantSite from "../../../images/merchant-site-low.webp";
 import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
 import FlipCard from "../FlipCard";
 
@@ -27,21 +27,58 @@ const MerchantSiteSection = () => {
         <ScrollIntersectionEffect direction={"vertical"}>
             <section className={`section section__text`}>
                 <div className="section__text--container">
-                    <h1>Les Avantages d'un E-Commerce pour Votre Entreprise</h1>
-                    <ScrollIntersectionEffect><p>Dans l'ère numérique actuelle, posséder un site marchand est un élément clé pour propulser votre entreprise vers de nouveaux horizons. Les avantages stratégiques d'un site marchand contribuent à accroître vos ventes, à renforcer votre présence en ligne et à offrir une expérience d'achat optimale à vos clients. Voici pourquoi investir dans un site marchand est essentiel pour la croissance de votre entreprise :</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p><strong>Augmentation des Ventes :</strong> Un site marchand offre une plateforme pour présenter vos produits de manière attrayante. Les clients peuvent facilement parcourir les articles, comparer les prix et effectuer des achats en quelques clics, ce qui stimule les ventes et la croissance de votre entreprise.</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p><strong>Accessibilité 24/7 :</strong> Votre boutique en ligne est ouverte 24 heures sur 24, 7 jours sur 7. Les clients peuvent explorer vos produits, effectuer des achats et obtenir des informations à tout moment, offrant une commodité maximale et augmentant la satisfaction client.</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p><strong>Feedback Instantané :</strong> Les clients peuvent laisser des avis et des commentaires sur vos produits, fournissant un retour d'information instantané. Cela contribue à renforcer la confiance des acheteurs potentiels et à améliorer la qualité de vos produits et services.</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p><strong>Sécurité des Transactions :</strong> Les sites marchands intègrent des protocoles de sécurité avancés pour garantir des transactions en ligne sûres. Cela renforce la confiance des clients, les encourageant à effectuer des achats en toute sécurité sur votre plateforme.</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p><strong>Marketing Ciblé :</strong> Un site marchand offre des possibilités étendues pour mettre en œuvre des stratégies de marketing ciblées. Des fonctionnalités telles que les promotions, les remises et les programmes de fidélité peuvent être personnalisées pour attirer et fidéliser les clients.</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p><strong>Gestion Simplifiée des Stocks :</strong> Les systèmes de gestion intégrés facilitent le suivi des niveaux de stock, la gestion des commandes et la mise à jour en temps réel des informations produit. Cela permet une gestion efficace des opérations commerciales.</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p><strong>Élargissement du Marché :</strong> Un site marchand vous permet d'atteindre un public mondial. Vous n'êtes plus limité par des frontières géographiques, élargissant ainsi votre marché potentiel et créant de nouvelles opportunités commerciales à l'échelle mondiale.</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p><strong>Collecte de Données Client :</strong> Grâce aux fonctionnalités de suivi et d'analyse, un site marchand vous permet de collecter des données sur le comportement d'achat de vos clients. Ces informations précieuses peuvent être utilisées pour personnaliser les offres, améliorer la stratégie marketing et renforcer la fidélité client.</p></ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect><p>En conclusion, un site marchand n'est pas simplement une plateforme de vente en ligne, mais une stratégie commerciale complète. Il offre des avantages significatifs pour augmenter la visibilité de votre entreprise, stimuler les ventes et créer des relations durables avec vos clients. Contactez-nous dès aujourd'hui pour discuter de la création d'un site marchand adapté à vos besoins spécifiques.</p></ScrollIntersectionEffect>
-                </div>
+                    <h1>Les avantages d'un E-commerce pour Votre Entreprise</h1>
+                    <ScrollIntersectionEffect>
+                        <p>Avoir une boutique en ligne est essentiel aujourd'hui pour le développement de votre entreprise. Cela permet d'augmenter vos ventes, de renforcer votre présence sur internet et d'offrir une meilleure expérience à vos clients. Voici pourquoi un site e-commerce est bénéfique :</p>
+                    </ScrollIntersectionEffect>
 
+                    <ScrollIntersectionEffect>
+                        <h2>Boostez vos Ventes</h2>
+                        <p>Une boutique en ligne met en valeur vos produits et simplifie le processus d'achat, ce qui stimule vos ventes et contribue à la croissance de votre entreprise.</p>
+                    </ScrollIntersectionEffect>
+
+                    <ScrollIntersectionEffect>
+                        <h2>Disponibilité 24/7</h2>
+                        <p>Votre e-commerce est accessible à tout moment, offrant à vos clients la liberté d'acheter quand ils le souhaitent, augmentant ainsi leur satisfaction.</p>
+                    </ScrollIntersectionEffect>
+
+                    <ScrollIntersectionEffect>
+                        <h2>Retours Clients Utiles</h2>
+                        <p>Les avis des clients sur vos produits fournissent des informations précieuses, vous aidant à améliorer votre offre et à gagner la confiance des nouveaux acheteurs.</p>
+                    </ScrollIntersectionEffect>
+
+                    <ScrollIntersectionEffect>
+                        <h2>Sécurité des Paiements</h2>
+                        <p>Les transactions sur votre site sont sécurisées, renforçant la confiance des clients dans l'achat en ligne sur votre plateforme.</p>
+                    </ScrollIntersectionEffect>
+
+                    <ScrollIntersectionEffect>
+                        <h2>Marketing sur Mesure</h2>
+                        <p>Profitez de votre e-commerce pour lancer des campagnes marketing ciblées, comme des promotions spéciales, pour attirer et fidéliser une clientèle variée.</p>
+                    </ScrollIntersectionEffect>
+
+                    <ScrollIntersectionEffect>
+                        <h2>Gestion Simplifiée</h2>
+                        <p>Un e-commerce facilite la gestion des stocks et des commandes, rendant vos opérations plus fluides et efficaces.</p>
+                    </ScrollIntersectionEffect>
+
+                    <ScrollIntersectionEffect>
+                        <h2>Élargir votre Marché</h2>
+                        <p>Avec un e-commerce, vous pouvez atteindre des clients au-delà de votre zone géographique habituelle, ouvrant des opportunités de croissance mondiale.</p>
+                    </ScrollIntersectionEffect>
+
+                    <ScrollIntersectionEffect>
+                        <h2>Connaissance des Clients</h2>
+                        <p>Grâce aux analyses de votre site, vous obtenez des données précieuses sur les préférences et comportements de vos clients, vous permettant d'adapter vos offres et services.</p>
+                    </ScrollIntersectionEffect>
+
+                    <ScrollIntersectionEffect>
+                        <p>En conclusion, une boutique en ligne est plus qu'un simple canal de vente, c'est une stratégie complète pour accroître la visibilité et le succès de votre entreprise. Contactez-nous pour créer un site e-commerce personnalisé qui répondra à vos besoins.</p>
+                    </ScrollIntersectionEffect>
+                </div>
             </section>
         </ScrollIntersectionEffect>
+
     </>);
 };
 

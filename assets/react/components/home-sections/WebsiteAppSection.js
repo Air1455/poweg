@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import imgWebsiteApp from "../../../images/website-app.webp";
+import imgWebsiteApp from "../../../images/website-app-low.webp";
 import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
 import FlipCard from "../FlipCard";
 
@@ -19,42 +19,48 @@ const WebsiteAppSection = () => {
             <ScrollIntersectionEffect direction={"vertical"}>
                 <section className={`section section__text`}>
                     <div className="section__text--container">
-                        <h1>Les avantages d’une application web sur mesure pour votre entreprise</h1>
+                        <h1>Les avantages d'une Application Web Sur Mesure pour Votre Entreprise</h1>
                         <ScrollIntersectionEffect>
-                            <p>
-                                Une application web sur mesure simplifie votre travail.
-                                <span className="mt-1"></span>
-                                Elle accomplit automatiquement à votre place les tâches informatiques de votre quotidien, vous faisant gagner du temps et évitant les erreurs.
-                                C'est un logiciel adapté exactement à vos besoins, accessible depuis n'importe quel appareil connecté à Internet.
-                                <span className="mt-1"></span>
-                                Voici quelques raisons supplémentaires d'envisager sérieusement d'équiper votre entreprise d'une application web sur mesure :
-                                <span className="mt-1"></span>
-                            </p>
+                            <p>Une application web sur mesure est un outil puissant qui facilite le travail au quotidien. Adaptée précisément à vos besoins, elle est accessible depuis n'importe quel appareil connecté à Internet. Voici les principaux bénéfices pour votre entreprise :</p>
                         </ScrollIntersectionEffect>
+
                         <ScrollIntersectionEffect>
-                            <p><strong>Aucune installation :</strong> Pas besoin d'installer l'application ! Elle est accessible sur divers appareils, améliorant ainsi son utilisation pour vos employés et clients, qu'ils préfèrent un ordinateur de bureau, une tablette ou un téléphone portable.</p>
+                            <h2>Accès Facile</h2>
+                            <p>Accessible directement en ligne, elle est utilisable sur différents appareils, simplifiant son usage par vos employés et clients, que ce soit sur PC, tablette ou smartphone.</p>
                         </ScrollIntersectionEffect>
+
                         <ScrollIntersectionEffect>
-                            <p><strong>Centralisation des Données :</strong> Elle rassemble toutes vos données en un seul endroit sécurisé pour une gestion facilitée, une fiabilité accrue, et un accès rapide aux informations les plus récentes.</p>
+                            <h2>Centralisation des Données</h2>
+                            <p>Toutes vos données sont rassemblées en un lieu sûr. Cela simplifie la gestion, augmente la fiabilité et permet un accès rapide aux informations actualisées.</p>
                         </ScrollIntersectionEffect>
+
                         <ScrollIntersectionEffect>
-                            <p><strong>Travail à Distance :</strong> Vos employés peuvent travailler de n'importe où, que ce soit au bureau, à la maison, ou en voyage. L'accès à l'application via Internet offre une flexibilité favorisant l'équilibre entre vie professionnelle et vie personnelle.</p>
+                            <h2>Flexibilité du Travail à Distance</h2>
+                            <p>L'application permet à vos employés de travailler de n'importe où, offrant ainsi plus de flexibilité et un meilleur équilibre travail-vie personnelle.</p>
                         </ScrollIntersectionEffect>
+
                         <ScrollIntersectionEffect>
-                            <p><strong>Collaboration en Temps Réel :</strong> L'application facilite la collaboration instantanée entre les membres de votre équipe, même s'ils sont à des endroits différents. Elle améliore la communication, le partage d'informations, et les prises de décisions collectives pour une meilleure performance opérationnelle.</p>
+                            <h2>Collaboration Optimisée</h2>
+                            <p>Elle favorise le travail d'équipe en temps réel, même à distance, améliorant la communication, le partage d'informations et la prise de décisions collectives.</p>
                         </ScrollIntersectionEffect>
+
                         <ScrollIntersectionEffect>
-                            <p><strong>Évolutivité et Flexibilité :</strong> Conçue pour s'adapter à la croissance de votre entreprise, vous pourrez sans difficulté ajouter de nouvelles fonctionnalités, pour répondre aux besoins changeants de manière flexible.</p>
+                            <h2>Adaptabilité et Évolutivité</h2>
+                            <p>Conçue pour évoluer avec votre entreprise, elle s'adapte facilement à vos besoins changeants avec la possibilité d'ajouter de nouvelles fonctionnalités.</p>
                         </ScrollIntersectionEffect>
+
                         <ScrollIntersectionEffect>
-                            <p><strong>Sécurité Renforcée :</strong> En optant pour une application web sur mesure hébergée sur internet, bénéficiez de mesures de sécurité avancées, comme des pare-feu et des protocoles de chiffrement, renforçant ainsi la sécurité de vos données contre les menaces en ligne.</p>
+                            <h2>Protection des Données</h2>
+                            <p>Profitez de mesures de sécurité avancées pour protéger vos données contre les menaces en ligne, grâce à des pare-feu et des protocoles de chiffrement robustes.</p>
                         </ScrollIntersectionEffect>
+
                         <ScrollIntersectionEffect>
-                            <p>En résumé, une application web sur mesure hébergée sur internet n’est pas seulement un outil, mais une solution innovante qui favorise l’efficacité, la collaboration et la croissance de votre entreprise. N’hésitez pas à nous contacter pour discuter de la création d’une application sur mesure répondant à vos besoins spécifiques.</p>
+                            <p>En conclusion, une application web sur mesure est une solution clé pour améliorer l'efficacité, la collaboration et la croissance de votre entreprise. Contactez-nous pour développer une application qui répond exactement à vos besoins.</p>
                         </ScrollIntersectionEffect>
                     </div>
                 </section>
             </ScrollIntersectionEffect>
+
         </>
     );
 };

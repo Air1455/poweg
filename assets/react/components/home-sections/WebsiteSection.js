@@ -1,5 +1,5 @@
 import React from 'react';
-import imgWebsite from "../../../images/website.webp";
+import imgWebsite from "../../../images/website-low.webp";
 import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
 import FlipCard from "../FlipCard";
 import Paper from "@mui/material/Paper";
@@ -66,47 +66,45 @@ const WebsiteSection = () => {
                 </section>
             </ScrollIntersectionEffect>
             <ScrollIntersectionEffect direction={"vertical"}>
-                {/* Section principale */}
                 <section className={`section section__text`}>
                     <div className="section__text--container">
-                        {/* Titre principal */}
-                        <h1>Pourquoi créer un Site Vitrine pour votre entreprise ?</h1>
-
+                        <h1>Les avantages d'un Site Vitrine pour votre Entreprise</h1>
                         <ScrollIntersectionEffect>
-                            {/* Introduction */}
-                            <p>
-                                Un site vitrine, c’est comme une carte de visite en ligne, qui met en valeur les produits, services et valeurs de votre entreprise de façon élégante et professionnelle. Même s’il ne permet pas de vendre directement en ligne, il présente de nombreux atouts stratégiques qui favorisent la croissance et le succès de votre entreprise.
-                                <br />Voici les raisons pour lesquelles vous avez tout intérêt à créer un site vitrine pour votre entreprise :
-                            </p>
+                            <p>Un site vitrine est une carte de visite numérique qui présente élégamment vos produits, services et valeurs. Même sans vente directe en ligne, il offre des avantages clés pour la croissance de votre entreprise. Voici pourquoi un site vitrine est un atout majeur :</p>
                         </ScrollIntersectionEffect>
 
-                        {/* Avantages du site vitrine */}
                         <ScrollIntersectionEffect>
-                            <p><strong>Image Professionnelle :</strong> Un site vitrine de qualité améliore l’image professionnelle de votre entreprise. C’est souvent par ce biais que vos clients potentiels vous découvrent, et un site attrayant et informatif leur donne une bonne impression, renforçant ainsi la confiance en votre entreprise.</p>
-                        </ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect>
-                            <p><strong>Opportunités Commerciales Élargies :</strong> La présence en ligne d’un site vitrine vous ouvre des opportunités commerciales plus larges. Elle vous permet de nouer de nouvelles relations, de trouver des partenaires, de toucher de nouveaux marchés ainsi que d’être visible à l’échelle mondiale.</p>
-                        </ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect>
-                            <p><strong>Accessibilité 24/7 :</strong> Votre site vitrine est accessible 24h/24, 7j/7. Cela permet à vos clients de consulter des informations, de passer des commandes ou de vous joindre à tout moment, même en dehors des horaires d’ouverture. Cela augmente considérablement la satisfaction client et la facilité.</p>
-                        </ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect>
-                            <p><strong>Interaction avec les Clients :</strong> Un site vitrine vous offre un moyen direct d’interagir avec vos clients. Les formulaires de contact, les avis et les chats en direct facilitent la communication, vous permettant ainsi de répondre rapidement aux demandes des clients, de collecter des feedbacks et de renforcer la fidélité client.</p>
-                        </ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect>
-                            <p><strong>Marketing Numérique :</strong> Un site vitrine est une plateforme efficace pour mener des actions de marketing numérique. Vous pouvez utiliser des techniques telles que le référencement (SEO), les réseaux sociaux et l’emailing pour attirer plus de visiteurs et faire connaître vos produits et services de manière optimale.</p>
-                        </ScrollIntersectionEffect>
-                        <ScrollIntersectionEffect>
-                            <p><strong>Analyse des Performances :</strong> Grâce à des outils d’analyse web, vous pouvez suivre les performances de votre site vitrine, analyser le comportement des visiteurs, évaluer l’efficacité de vos campagnes et adapter votre stratégie en fonction. Cela vous donne un avantage concurrentiel et une base solide pour prendre des décisions judicieuses.</p>
+                            <h2>Image Professionnelle</h2>
+                            <p>Un site vitrine bien conçu renforce votre image professionnelle. C'est souvent la première impression que les clients ont de votre entreprise, et un site attrayant les convainc de la qualité de vos services.</p>
                         </ScrollIntersectionEffect>
 
-                        {/* Conclusion */}
                         <ScrollIntersectionEffect>
-                            <p>En résumé, un site vitrine ne se contente pas de présenter votre entreprise en ligne. C’est un outil stratégique qui peut booster votre entreprise vers de nouveaux horizons. Contactez-nous dès maintenant pour discuter de la création d’un site vitrine adapté à vos besoins et objectifs commerciaux.</p>
+                            <h2>Élargir les Opportunités Commerciales</h2>
+                            <p>Être en ligne avec un site vitrine vous ouvre des portes à de nouvelles relations commerciales, des partenariats et un accès à de nouveaux marchés, même à l'international.</p>
+                        </ScrollIntersectionEffect>
+
+                        <ScrollIntersectionEffect>
+                            <h2>Accessible en Tout Temps</h2>
+                            <p>Votre site est disponible 24/7, permettant aux clients d'accéder à des informations et de vous contacter à leur convenance, ce qui augmente leur satisfaction.</p>
+                        </ScrollIntersectionEffect>
+
+                        <ScrollIntersectionEffect>
+                            <h2>Interactions avec les Clients</h2>
+                            <p>Le site facilite la communication avec vos clients grâce aux formulaires de contact et chats en direct, ce qui vous permet de répondre rapidement à leurs besoins et de construire une relation de fidélité.</p>
+                        </ScrollIntersectionEffect>
+
+                        <ScrollIntersectionEffect>
+                            <h2>Analyse et Stratégie</h2>
+                            <p>Les outils d’analyse web vous aident à comprendre le comportement des visiteurs, à mesurer l’impact de vos actions et à ajuster vos stratégies pour une efficacité maximale.</p>
+                        </ScrollIntersectionEffect>
+
+                        <ScrollIntersectionEffect>
+                            <p>En conclusion, un site vitrine est plus qu'une simple présentation en ligne, c'est un outil stratégique pour propulser votre entreprise. Contactez-nous pour créer un site vitrine qui répond parfaitement à vos objectifs commerciaux.</p>
                         </ScrollIntersectionEffect>
                     </div>
                 </section>
             </ScrollIntersectionEffect>
+
         </>
     );
 };

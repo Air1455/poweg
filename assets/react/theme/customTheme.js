@@ -39,4 +39,7 @@ export const customTheme = createTheme({
             contrastText: '#000',
         },
     },
+    components: {
+        MuiTooltip: {styleOverrides: {tooltip: {fontSize: '1.5rem',whiteSpace: 'nowrap', maxWidth: '500rem'}}}
+    }
 });

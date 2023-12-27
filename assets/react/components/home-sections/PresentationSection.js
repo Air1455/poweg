@@ -2,7 +2,7 @@ import React from 'react';
 import {animateScroll, Link} from "react-scroll";
 import Logo from "../Logo";
 import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
-import {Button} from "@mui/material";
+import {Button, Tooltip} from "@mui/material";
 
 const PresentationSection = () => {
     return (
@@ -19,21 +19,19 @@ const PresentationSection = () => {
                         <p>
                             Que ce soit pour <Link
                             to="p__website"
-                            title="Site Vitrine"
                             smooth={true}
                             offset={-100}
                             duration={1000}
                             containerId={"root"}
                             className={"linkToScroll"}
-                        > une simple page de présentation </Link>, <Link
+                        ><Tooltip title="Découvrir les avantages d'un site vitrine" arrow> <span>une simple page de présentation</span></Tooltip></Link>, <Link
                             to="p__merchant-site"
-                            title="E-Commerce"
                             smooth={true}
                             offset={-100}
                             duration={1000}
                             containerId={"root"}
                             className={"linkToScroll"}
-                        > un site e-commerce dynamique </Link> ou <Link
+                        ><Tooltip title="Découvrir les avantages d'un site e-commerce" arrow> <span>un site e-commerce dynamique</span></Tooltip></Link> ou <Link
                             to="p__website-app"
                             title="Application Web"
                             smooth={true}
@@ -41,7 +39,7 @@ const PresentationSection = () => {
                             duration={1000}
                             containerId={"root"}
                             className={"linkToScroll"}
-                        > une application complète </Link> qui gère tous les aspects de votre entreprise, nous vous accompagnons dans la création d'une présence en ligne d'une présence en ligne efficace, professionnelle et parfaitement alignée avec votre vision.
+                        ><Tooltip title="Découvrir les avantages d'une application Web" arrow> <span>une application complète</span></Tooltip></Link> qui gère tous les aspects de votre entreprise, nous vous accompagnons dans la création d'une présence en ligne efficace, professionnelle et parfaitement alignée avec votre vision.
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
@@ -50,13 +48,12 @@ const PresentationSection = () => {
                             Erwann GAUTIER est un développeur français
                             <Link
                                 to="p__full-stack"
-                                title="Les avantages d'un développeur full stack"
                                 smooth={true}
                                 offset={-150}
                                 duration={1000}
                                 containerId={"root"}
                                 className={"linkToScroll"}
-                            > Full Stack </Link>
+                            > <Tooltip title="Découvrir les avantages d'un développeur full stack" arrow><span>Full Stack</span></Tooltip> </Link>
                             passionné de programmation.
                             <br />
                             Son parcours a débuté en 2010 avec les langages HTML, CSS, et PHP. Dès ses débuts, il s'est engagé à mettre en pratique ses connaissances pour créer des solutions adaptées aux besoins des entreprises et favoriser une expérience utilisateur agréable.
@@ -68,7 +65,7 @@ const PresentationSection = () => {
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
-                        <p>Installé et marié au Togo depuis 2014, Erwann allie le niveau d'exigence européen à une compréhension profonde des réalités africaines, apportant une perspective unique à chaque projet.</p>
+                        <p>Installé et marié au Togo depuis 2014, il allie le niveau d'exigence européen à une compréhension profonde des réalités africaines, apportant une perspective unique à chaque projet.</p>
                     </ScrollIntersectionEffect>
                 </div>
                 <div className="section__text--links">

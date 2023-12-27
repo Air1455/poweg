@@ -11,42 +11,54 @@ const WhyPowegSection = () => {
                     <h1>Pourquoi choisir <Logo /> ?</h1>
                     <ScrollIntersectionEffect>
                         <p>
-                            La création d'un site web ou d'une application sur mesure est une tâche complexe.
-                            De nombreuses agences utilisent des outils automatisés qui permettent de créer des sites avec peu voir aucune connaissance en programmation.
-                            <br />Bien que cette pratique, appelée le "no code", gagne en popularité, elle conduit souvent à des sites uniformes et limités.
-                        </p><p>
-                            Chez <Logo />, nous maitrisons les principales langues de programmation, cela nous permet de proposer des solutions personnalisées, adaptées à vos besoins spécifiques et dépassant les limitations standards.
-                        </p><p>
-                            Choisir notre agence, c'est bénéficier de multiples avantages :
+                            La création d'un site web ou d'une application personnalisée est un vrai défi. Beaucoup d'agences optent pour des solutions simples, mais cela peut limiter les fonctionnalités. Chez <Logo />, nous allons au-delà avec des solutions qui correspondent vraiment à vos besoins.
+                        </p>
+                    </ScrollIntersectionEffect>
+                    <ScrollIntersectionEffect>
+                        <h2>Contrôle Total et Hautes Performances</h2>
+                        <p>
+                            Nous codons tout de A à Z, offrant une personnalisation complète et des performances supérieures, tout en respectant les délais.
+                        </p>
+                    </ScrollIntersectionEffect>
+                    <ScrollIntersectionEffect>
+                        <h2>Expertise Technique Avancée</h2>
+                        <p>
+                            Notre équipe, dirigée par un programmeur Full Stack, utilise les dernières technologies pour garantir des solutions innovantes et efficaces.
+                        </p>
+                    </ScrollIntersectionEffect>
+                    <ScrollIntersectionEffect>
+                        <h2>Design Personnalisé</h2>
+                        <p>
+                            Nous travaillons en étroite collaboration avec vous pour créer des interfaces qui reflètent parfaitement votre marque et vos objectifs.
+                        </p>
+                    </ScrollIntersectionEffect>
+                    <ScrollIntersectionEffect>
+                        <h2>Efficacité et Gain de Temps</h2>
+                        <p>
+                            En nous confiant le développement technique, vous pouvez vous concentrer sur ce que vous faites de mieux, tout en bénéficiant de résultats rapides et professionnels.
+                        </p>
+                    </ScrollIntersectionEffect>
+                    <ScrollIntersectionEffect>
+                        <h2>Suivi et Support Continu</h2>
+                        <p>
+                            Notre assistance ne s'arrête pas après la livraison. Nous offrons un support continu pour assurer le bon fonctionnement et l'évolution de votre projet.
+                        </p>
+                    </ScrollIntersectionEffect>
+                    <ScrollIntersectionEffect>
+                        <h2>Minimiser les Risques</h2>
+                        <p>
+                            Notre expérience réduit les erreurs potentielles, garantissant que votre projet est entre des mains expertes et fiables.
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
                         <p>
-                            <strong>Contrôle total et performances optimales :</strong> Chez <Logo />, chaque projet est intégralement codé, ce qui signifie que chaque ligne de code est maîtrisée. L'utilisation d'outils tels que les frameworks et l'intelligence artificielle nous permet de rivaliser avec les délais des solutions automatisées.
-                            <br />Cette approche garantit un contrôle total, une personnalisation approfondie et des performances optimales.
+                            Choisir <Logo /> c'est opter pour une expertise qui transforme vos idées en réalité réussie. Contactez-nous pour débuter votre projet.
                         </p>
-                    </ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect>
-                        <p><strong>Expertise Technique :</strong> Avec une maîtrise des dernières technologies et tendances du marché, <Logo /> garantit un produit performant et innovant. Le directeur, lui-même programmeur <Link to="p__full-stack" title="Les avantages d'un développeur full stack" smooth={true} offset={-150} duration={1000} containerId={"root"} className={"linkToScroll"}>Full Stack</Link>, apporte une expertise technique précieuse.</p>
-                    </ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect>
-                        <p><strong>Design Personnalisé :</strong> En travaillant en étroite collaboration avec vous, nous créons une interface utilisateur unique et personnalisée en harmonie avec l'identité visuelle de votre entreprise.</p>
-                    </ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect>
-                        <p><strong>Gain de Temps et d'Énergie :</strong> En nous confiant la partie technique du développement, vous pouvez vous concentrer sur votre cœur de métier. <Logo /> économise vos ressources, vous permettant d'obtenir un résultat professionnel plus rapidement.</p>
-                    </ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect>
-                        <p><strong>Suivi et Support :</strong> Au-delà de la livraison, <Logo /> assure un suivi constant et un support technique pour garantir le bon fonctionnement de votre site ou application, résoudre les problèmes, effectuer des mises à jour et répondre à vos questions.</p>
-                    </ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect>
-                        <p><strong>Éviter les Erreurs Coûteuses :</strong> Collaborer avec une agence expérimentée comme <Logo /> minimise le risque d'erreurs coûteuses, assurant que votre projet est entre les mains de professionnels fiables.</p>
-                    </ScrollIntersectionEffect>
-                    <ScrollIntersectionEffect>
-                        <p>En résumé, choisir <Logo /> signifie investir dans la réussite de votre projet. Contactez-nous aujourd'hui pour discuter de vos idées et transformer votre vision en réalité.</p>
                     </ScrollIntersectionEffect>
                 </div>
             </section>
         </ScrollIntersectionEffect>
+
 
     );
 };
