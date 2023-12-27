@@ -24,14 +24,14 @@ const PresentationSection = () => {
                             duration={1000}
                             containerId={"root"}
                             className={"linkToScroll"}
-                        ><Tooltip title="Découvrir les avantages d'un site vitrine" arrow> <span>une simple page de présentation</span></Tooltip></Link>, <Link
+                        > <Tooltip title="Découvrir les avantages d'un site vitrine" arrow><span>une simple page de présentation</span></Tooltip></Link>, <Link
                             to="p__merchant-site"
                             smooth={true}
                             offset={-100}
                             duration={1000}
                             containerId={"root"}
                             className={"linkToScroll"}
-                        ><Tooltip title="Découvrir les avantages d'un site e-commerce" arrow> <span>un site e-commerce dynamique</span></Tooltip></Link> ou <Link
+                        > <Tooltip title="Découvrir les avantages d'un site e-commerce" arrow><span>un site e-commerce dynamique</span></Tooltip></Link> ou <Link
                             to="p__website-app"
                             title="Application Web"
                             smooth={true}
@@ -39,7 +39,7 @@ const PresentationSection = () => {
                             duration={1000}
                             containerId={"root"}
                             className={"linkToScroll"}
-                        ><Tooltip title="Découvrir les avantages d'une application Web" arrow> <span>une application complète</span></Tooltip></Link> qui gère tous les aspects de votre entreprise, nous vous accompagnons dans la création d'une présence en ligne efficace, professionnelle et parfaitement alignée avec votre vision.
+                        > <Tooltip title="Découvrir les avantages d'une application Web" arrow><span>une application complète</span></Tooltip></Link> qui gère tous les aspects de votre entreprise, nous vous accompagnons dans la création d'une présence en ligne efficace, professionnelle et parfaitement alignée avec votre vision.
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>

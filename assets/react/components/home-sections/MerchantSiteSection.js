@@ -1,5 +1,5 @@
 import React from 'react';
-import imgMerchantSite from "../../../images/merchant-site-low.webp";
+import imgMerchantSite from "../../../images/merchant-site.webp";
 import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
 import FlipCard from "../FlipCard";
 

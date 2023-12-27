@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import imgWebsiteApp from "../../../images/website-app-low.webp";
+import imgWebsiteApp from "../../../images/website-app.webp";
 import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
 import FlipCard from "../FlipCard";
 

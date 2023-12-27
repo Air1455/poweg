@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="node138-eu.n0c.com" id="2be0910a-2d0d-40ed-8718-31164a45f24d" port="5022" nameFormat="DESCRIPTIVE" username="arczhsxt" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

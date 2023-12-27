@@ -1,5 +1,5 @@
 import React from 'react';
-import imgWebsite from "../../../images/website-low.webp";
+import imgWebsite from "../../../images/website.webp";
 import ScrollIntersectionEffect from "../ScrollIntersectionEffect";
 import FlipCard from "../FlipCard";
 import Paper from "@mui/material/Paper";
