@@ -1,3 +1,6 @@
+/* The following line can be included in a src/App.scss */
+@import '~bootstrap/scss/bootstrap';
+
 //Base
 @import "base/fonts";
 @import "base/screenBreakpoint";
@@ -14,6 +17,7 @@
 @import "components/image-container";
 @import "components/background-animate";
 @import "components/scroll-intersection-effect";
+@import "components/rates-card";
 
 
 //Pages

@@ -1,8 +1,7 @@
 .flip-card {
   flex: initial;
   position: relative;
-  height: auto;
-  min-height: 40rem;
+  height: 40rem;
   width: 60rem;
   perspective: 200rem;
   border-radius: 8px;
@@ -28,10 +27,10 @@
       width: 100%;
       height: 100%;
       &-header{
-        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
-        height: 30%;
+        height: 10rem;
         @include flexCenter;
         h2{
           color: white;
@@ -39,6 +38,7 @@
           text-shadow: 1px 1px 1px rgba(0,0,0,.5);
         }
       }
+      &-body{height: 30rem}
     }
   }
   &:hover &__side--back {transform: rotateY(0);}

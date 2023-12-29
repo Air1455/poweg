@@ -5,12 +5,14 @@
   >div:first-of-type{margin-top: 2rem}
   .section{
     width: 100%;
-    padding: 4rem;
+    padding: 8rem 4rem ;
+    &.section__text{clip-path: polygon(0 3rem, 100% 0, 100% calc(100% - 3rem), 0 100%);}
     &__title{
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       margin-bottom: 0;
+      margin-top: 0;
       padding: 0;
       &--80vh{height: 80vh;}
       h1{
@@ -42,57 +44,41 @@
       &--container{
         max-width: $containerMaxWidth;
         margin: auto;
+        position: relative;
+        &::before{
+          content: "";
+          width: 4px;
+          height: calc(100% - 7rem);
+          top:7rem;
+          left: 3rem;
+          position: absolute;
+          background-color: $primary--lightest;
+          border-radius: 23px;
+        }
         h1{
-          color: #360000;
           width: max-content;
           font-size: 2.6rem;
           border-radius: 8px;
           margin-bottom: 3rem;
-          font-style: italic;
-          text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+          font-weight: bold;
+          @include textShadow1;
         }
-        p{margin-left: 8rem;margin-bottom: 2rem; .mt-1{display: block;margin-top: 1rem}}
-        h2{margin-left: 6rem; color: $primary; font-style: italic}
-        &-subtitle{display: block;font-weight: bold;margin: 3rem 0 1rem -2rem;}
+        p{padding-left: 6rem;margin-bottom: 2rem; .mt-1{display: block;margin-top: 1rem}}
+        h2{margin-left: 6rem;color: black !important; @include textShadow1;}
       }
       &--links{
         display: flex;
         justify-content: end;
         gap: 2rem;
         button{
-          box-shadow:4px 4px 5px 0 rgba(0,0,0,0.5);
-          font-size: 1rem;
+          box-shadow:4px 4px 5px 0 rgba($primary--lighter,0.5);
+          font-size: 1.2rem;
+          border-radius: 25px;
           .logo{
             margin: -.4rem 1rem 0 1rem;
-            span{font-size: 1.3rem;}
+            span{font-size: 1.5rem;@include textShadow1;}
           }
         }
-      }
-    }
-  }
-  .rates-card{
-    display: flex;
-    gap: 2rem;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    &__element{
-      border: 1px solid #ededed;
-      border-radius: 11px;
-      flex: 1;
-      >div{
-        width: 100%;
-        text-align: center;
-        padding: 1rem;
-        &:not(:last-child){
-          border-bottom: 1px solid #ededed;
-        }
-      }
-      &--title, &--rate{
-        font-weight: bold;
-      }
-      &--rate{
-        color: $primary;
-        span{font-size: 3rem;color: $primary;;}
       }
     }
   }
@@ -104,10 +90,11 @@
     flex-direction: column;
     gap: 2rem;
     button{
+      background-color: rgba(white, .9);
       border: 3px solid rgba(21, 21, 21, 0.5);
-      box-shadow:4px 4px 5px 0 rgba(0,0,0,0.5);
+      box-shadow:4px 4px 5px 0 rgba($primary--lighter,0.5);
       padding: 15px 5px;
-      border-radius: 20%;
+      border-radius: 23px;
       &:hover{border: 3px solid #151515;}
       svg, svg *{cursor: pointer}
     }

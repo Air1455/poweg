@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-
+    text-decoration: none;
     &:hover{&:after{transform: scaleX(1)}}
     &:after{
       transition: transform .2s;

@@ -11,3 +11,16 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin textShadow05{
+  text-shadow: .3px .3px .3px rgba($primary--lighter,.5);
+  color: $primary--lighter;
+}
+@mixin textShadow1{
+  text-shadow: 1px 1px 1px rgba($primary--lighter,.5);
+  color: $primary--lighter;
+}
+@mixin textShadow2{
+  text-shadow: 2px 2px 2px rgba($primary--lighter,.5);
+  color: $primary--lighter;
+}

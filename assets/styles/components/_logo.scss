@@ -44,8 +44,8 @@
   span {
     font-family: "Logo Police", cursive;
     position: relative;
-    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
-    color: $primary;
+    @include textShadow2;
+    color: $primary !important;
     font-size: 2rem;
     &:nth-child(6){margin-right: .5rem}
 

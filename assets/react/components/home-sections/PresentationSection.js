@@ -9,7 +9,7 @@ const PresentationSection = () => {
         <ScrollIntersectionEffect direction={"vertical"} insideElement={true}>
             <section id="p__presentation" className={`section section__text`}>
                 <div className="section__text--container">
-                    <h1 onClick={()=> animateScroll.scrollToBottom({duration: 500, smooth: true})}>Présentation</h1>
+                    <h1>Présentation</h1>
                     <ScrollIntersectionEffect>
                         <p>
                             <Logo /> est une agence spécialisée en Programmation Orientée Web, implantée à Lomé au Togo, alliant expertise technique et sensibilité créative pour offrir des solutions web uniques.
@@ -43,8 +43,8 @@ const PresentationSection = () => {
                         </p>
                     </ScrollIntersectionEffect>
                     <ScrollIntersectionEffect>
+                        <h2>Un mot sur le directeur</h2>
                         <p>
-                            <span className="section__text--container-subtitle">Un mot sur le directeur</span>
                             Erwann GAUTIER est un développeur français
                             <Link
                                 to="p__full-stack"

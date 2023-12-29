@@ -5,52 +5,49 @@ import FlipCard from "../FlipCard";
 import Paper from "@mui/material/Paper";
 import {GrNext, GrPrevious} from "react-icons/gr";
 import Button from "@mui/material/Button";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Carousel from 'react-bootstrap/Carousel';
 
 
 const WebsiteSection = () => {
-    const responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
-        }
-    };
     const backTitle= "Exemple de tarifs"
-    const backBody= <Carousel responsive={responsive}>
-        <Paper className="rates-card">
-            <div className="rates-card__element rates-card__element-1">
-                <div className="rates-card__element--title">Simple page de présentation</div>
-                <div className="rates-card__element--rate"><span>200 000</span> F CFA</div>
+    const backBody= <Carousel data-bs-theme="dark">
+        <Carousel.Item interval={3000}>
+            <div className="rates-card">
+                <div className="rates-card__element rates-card__element-1">
+                    <div className="rates-card__element--title">Simple page de présentation</div>
+                    <div className="rates-card__element--description">Une page interactive et moderne qui présente votre société</div>
+                </div>
+                <div className="rates-card__element rates-card__element-2">
+                    <div className="rates-card__element--rate"><div><span>200 000</span> F CFA</div></div>
+                    <div className="rates-card__element--rate"><div>Hébergement<br />+ nom de domaine<br /><span>20 000</span> F CFA/an</div></div>
+                </div>
             </div>
-            <div className="rates-card__element rates-card__element-2">
-                <div className="rates-card__element--line">Une page interactive et moderne qui présente vors société</div>
-                <div className="rates-card__element--line">Hébergement + nom de domaine 20 000 F CFA par an</div>
+        </Carousel.Item>
+        <Carousel.Item interval={3000}>
+            <div className="rates-card">
+                <div className="rates-card__element rates-card__element-1">
+                    <div className="rates-card__element--title">Page de présentation avec formulaire de contact</div>
+                    <div className="rates-card__element--description">Une page interactive et moderne qui présente votre société<br />+<br />Un formulaire de contact pour que vos clients puissent vous écrire en direct.</div>
+                </div>
+                <div className="rates-card__element rates-card__element-2">
+                    <div className="rates-card__element--rate"><div><span>300 000</span> F CFA</div></div>
+                    <div className="rates-card__element--rate"><div>Hébergement<br />+ nom de domaine<br /><span>20 000</span> F CFA/an</div></div>
+                </div>
             </div>
-        </Paper>
-        <Paper className="rates-card">
-            <div className="rates-card__element rates-card__element-1">
-                <div className="rates-card__element--title">Autre page de présentation</div>
-                <div className="rates-card__element--rate"><span>300 000</span> F CFA</div>
+        </Carousel.Item>
+        <Carousel.Item interval={3000}>
+            <div className="rates-card">
+                <div className="rates-card__element rates-card__element-1">
+                    <div className="rates-card__element--title">Page de présentation avec administration</div>
+                    <div className="rates-card__element--description">Une page interactive et moderne qui présente votre société<br />+<br />Une partie administration pour modifier vous même le contenu.</div>
+
+                </div>
+                <div className="rates-card__element rates-card__element-2">
+                    <div className="rates-card__element--rate"><div><span>400 000</span> F CFA</div></div>
+                    <div className="rates-card__element--rate"><div>Hébergement<br />+ nom de domaine<br /><span>30 000</span> F CFA/an</div></div>
+                </div>
             </div>
-            <div className="rates-card__element rates-card__element-2">
-                <div className="rates-card__element--line">Une page interactive et moderne qui présente vors société</div>
-                <div className="rates-card__element--line">Hébergement + nom de domaine 20 000 F CFA par an</div>
-            </div>
-        </Paper>
+        </Carousel.Item>
     </Carousel>
 
     return (
